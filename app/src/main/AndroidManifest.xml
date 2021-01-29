@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyEventsApp">
+        <activity android:name=".OnlineEvents"></activity>
+        <activity android:name=".BucharestFestival" />
+        <activity android:name=".BucharestCinema" />
+        <activity android:name=".BucharestTheater" />
+        <activity android:name=".ClujActivity" />
+        <activity android:name=".BuzauActivity" />
+        <activity android:name=".BucharestActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

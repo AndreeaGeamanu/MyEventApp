@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#422D7A"
+
+    >
+
+    <TextView
+        android:id="@+id/itemList_tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#EBD833"
+        android:layout_centerVertical="true"
+
+        android:layout_marginRight="15dp"
+        />
+
+    <TextView
+        android:id="@+id/itemList_tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/itemList_tvDate"
+        android:layout_alignParentTop="true"
+        android:layout_margin="2dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/itemList_tvSubTitle"
+        android:layout_width="wrap_content"
+        android:textColor="#C9BBF2"
+        android:layout_height="wrap_content"
+
+        android:textSize="15dp"
+        android:layout_toRightOf="@+id/itemList_tvDate"
+        android:layout_below="@id/itemList_tvTitle"
+        android:layout_margin="2dp"
+        android:layout_marginLeft="5dp"
+        />
+
+
+    <TextView
+        android:id="@+id/itemList_tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#C9BBF2"
+        android:textSize="15dp"
+        android:layout_toRightOf="@+id/itemList_tvSubTitle"
+        android:layout_below="@id/itemList_tvTitle"
+        android:layout_margin="2dp"
+        android:layout_marginLeft="5dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:background="#EBD833"/>
+</RelativeLayout>

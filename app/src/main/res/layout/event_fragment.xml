@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#110336"
+    android:padding="8dp"
+    android:layout_centerHorizontal="true">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:src="@drawable/musicbcg"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-160dp"
+        />
+    <TextView
+        android:id="@+id/Btext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Evenimente Bucuresti"
+        android:textColor="#EBD833"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="32dp"
+        />
+
+       <Button
+           android:id="@+id/bttcinema"
+           android:layout_width="250dp"
+           android:layout_height="wrap_content"
+           android:text="           Cinema"
+           android:layout_below="@id/Btext"
+           android:drawableLeft="@drawable/cinema"
+           android:backgroundTint="#F4511E"
+           android:layout_centerHorizontal="true"
+           android:gravity="start"
+           />
+    <Button
+        android:id="@+id/btttheater"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="          Teatru"
+        android:layout_below="@id/bttcinema"
+        android:drawableLeft="@drawable/theater"
+        android:backgroundTint="#F4511E"
+        android:layout_centerHorizontal="true"
+        android:gravity="start"
+        />
+    <Button
+        android:id="@+id/bttfestival"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="          Festivaluri"
+        android:layout_below="@id/btttheater"
+        android:drawableLeft="@drawable/music"
+        android:backgroundTint="#F4511E"
+        android:layout_centerHorizontal="true"
+        android:gravity="start"
+        />
+    <Button
+        android:id="@+id/bttmarket"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="          Targuri"
+        android:layout_below="@id/bttfestival"
+        android:drawableLeft="@drawable/market"
+        android:backgroundTint="#F4511E"
+        android:layout_centerHorizontal="true"
+        android:gravity="start"
+        />
+
+    <Button
+        android:id="@+id/bttconference"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="          Conferinte"
+        android:layout_below="@id/bttmarket"
+        android:drawableLeft="@drawable/conference"
+        android:backgroundTint="#F4511E"
+        android:layout_centerHorizontal="true"
+        android:gravity="start"
+
+        />
+
+
+
+</RelativeLayout>
